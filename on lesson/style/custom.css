@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(230, 230, 250, 0.603); 
+}
+h2{
+    font-size: 40px;
+    margin: 10px 40px;
+}
+header{
+    background-color: rgba(223, 223, 240, 0.63);
+    overflow: hidden;
+    align-items: center;
+}
+header img{
+    width: 25%;
+    float: left;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 240, 252);
+    margin: 90px;
+}
+ul{
+    width: 70%;
+    background-color:rgb(128, 128, 128);
+    overflow: hidden;
+    
+}
+ul li{
+    float: left;
+    margin: 25px;
+    font-size: 30px;
+}
+.clearfix{
+    clear: both;
+}
+#section_1{
+    border: none;
+}
+section{
+    margin: 5px;
+    border: 3px solid rgb(172, 163, 163);
+}
+.text{
+    font-size: 20px;
+    padding: 50px;
+    line-height: 30px;
+}
+.more_cat{
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#section_3{
+    border-color: rgb(60, 97, 71);
+}
+#cat_4{
+    height: 250px;
+    margin: 30px;
+    float: left;
+}
+#section_4{
+    border-color: rgb(134, 64, 50);
+}
+#cat_5{
+    height: 250px;
+    margin: 30px;
+    float: right;
+}
+ul.navigation{
+    font-size: 15px;
+    background-color: transparent;
+    width: 100%;
+    margin: 50px 200px;
+}
+ul.navigation a{
+    color: rgb(0, 0, 0);
+}
+.rights{
+    font-size: 15px;
+    color: rgba(159, 159, 182, 0.733);
+    margin: 100px 30px;
+}
+
