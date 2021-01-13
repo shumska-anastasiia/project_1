@@ -99,7 +99,6 @@ footer{
     width: 100%;
     background-color: rgb(240, 240, 240);
     display: flex;
-    justify-content: space-between;
 }
 #footer_p{
     width: 40%;
