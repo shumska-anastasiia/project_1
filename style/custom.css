@@ -1,6 +1,7 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+/*Start header*/
 #logo{
     width: 10%;
     margin: 30px 35px;
@@ -9,20 +10,27 @@ body{
 a{
     text-decoration: none;
     color: rgb(128, 128, 128);
-    margin:  90px; 
+    padding:  0px 30px; 
+    text-align: right;
 } 
-ul{
-    margin-top: 30px;
-    width: 85%;
-    overflow: hidden;
-}
 ul li{
+    float: right;
+    margin: 30px 50px;
+}
+.menu{
     font-size: 20px;
     float: left;
+}
+/*End header*/
+/*Start section 1*/
+.section-1{
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
 }
 #photo{
     width: 95%;
     margin: 50px;
+    text-align: center;
 }
 h2{
     font-size: 20px;
@@ -44,6 +52,8 @@ p{
 section{
     margin-top: 40px;
 }
+/*End section 1*/
+/*Start section 2*/
 .lifestyle{
     width: 48%;
     float: left;
@@ -52,11 +62,12 @@ section{
     width: 90%;
     margin: 20px 45px;
 }
-#alps{
+.alps{
     width: 48%;
     float: right; 
 }
-#news{
+/*End section 2*/
+.news{
     color: rgb(255, 255, 255);
 }
 #email{
@@ -75,7 +86,7 @@ legend{
     font-size: 40px;
     color: rgb(98, 98, 98);
 }
-#sign_up{
+.sign_up{
     margin-top: 200px;
 }
 #button{
@@ -87,13 +98,21 @@ legend{
     border: none;
 }
 button{
+    width: 300px;
     font-size: 25px;
     font-family: serif;
     color: rgb(98, 98, 98);
+    border: 2px solid rgb(98, 98, 98);
     background-color: transparent;
-    margin: 200px 650px;
+    margin: 200px 500px;
     padding: 20px 40px;
 }
+button:hover{
+    background: rgb(98, 98, 98);
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+}
+/*Start footer*/
 footer{
     position: absolute;
     width: 100%;
@@ -123,5 +142,5 @@ div.social a{
     height: 20px;
     float: right;
 }
-
+/*End footer*/
   
