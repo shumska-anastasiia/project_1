@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="description" content="MINIMO">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-Ua-Compatible" content="ie=edge">
+        <meta name="viewport" contenteditable="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <meta name="description" content="Blog about travel, lifestyle, photo and music">
         <meta name="keywords" content="MINIMO, blog, lifestyle">
         <title>MINIMO</title>
+        <meta property="og:title" content="MINIMO">
+        <meta property="og:type" content="text">
+        <meta property="og:site_name" content="MINIMO">
+        <meta property="og:description" content="Blog about travel, lifestyle, photo and music">
+        <link rel="icon" type="image/png" href="./image/icon.png">
         <link rel="stylesheet" href="./style/reset.css">
         <link rel="stylesheet" href="./style/custom.css">
-        <link rel="shortcut icon" href="./image/icon.png" type="image/x-icon">
     </head>
     <body>
     <header>
@@ -15,6 +21,7 @@
             <a href="index.html">
                 <img src="./image/logo.png" alt="logo" id="logo"></a>
         </h1>
+        <div class="menu">
         <nav>
             <ul>
                 <li><a href="#">LIFESTYLE</a></li>
@@ -23,12 +30,13 @@
                 <li><a href="#">TRAVEL</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
         <section >
             <img src="./image/pic_1.png" alt="photo" id="photo">
         </section>
-        <section>
+        <section class="section-1">
             <h2>PHOTODIARY</h2>
             <h3>The perfect weekend getaway</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
@@ -45,7 +53,7 @@
             <br>
             <h2>LEAVE A COMMENT</h2>
             </section>
-            <section>
+            <article>
                 <section class="lifestyle">
                     <img src="./image/pic_2.jpg" alt="festival" class="pic">
                     <h2>LIFESTYLE</h2>
@@ -60,9 +68,9 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
                 </section>
-            </section>
-            <section>
-                <section id="alps">
+            </article>
+            <article>
+                <section class="alps">
                     <img src="./image/pic_4.jpg" alt="Golden Gate" class="pic">
                     <h2>PHOTODIARY</h2>
                     <h3>American dream</h3>
@@ -76,9 +84,9 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
                 </section>
-            </section>
-            <section id="sign_up">
-                <h3 id="news">Sign up for our newsletter</h3>
+            </article>
+            <section class="sign_up">
+                <h3 class="news">Sign up for our newsletter</h3>
                 <form>
                     <fieldset>
                         <legend>Sign up for our newsletter</legend>
@@ -89,7 +97,7 @@
                     </fieldset>
                 </form>
             </section>
-            <section>
+            <article>
                 <section  class="lifestyle">
                     <img src="./image/pic_6.jpg" alt="field" class="pic">
                     <h2>LIFESTYLE</h2>
@@ -104,7 +112,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
                 </section>
-            </section>
+            </article>
                 <button>Load more</button>
         </main>
         <footer>
